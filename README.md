@@ -4,12 +4,8 @@
 
 #### Processing Code:
 ````
-
 Mover m;
 PVector force= new PVector(0, 0);
-
-
-
 void setup() {
   fullScreen();
   m = new Mover();
