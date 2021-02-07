@@ -115,4 +115,5 @@ void keyPressed() {
 
 ````
 
-[![Demo](Assignment1/drivingCar_demo.gif)](https://www.youtube.com/watch?v=5idQny0czc4)
+
+![Demo](https://j.gifs.com/BND4Jo.gif)
