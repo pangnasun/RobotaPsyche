@@ -1,29 +1,27 @@
 
 Mover m;
+float initMag = 0.01; //value of force applied by the arrow key
 PVector force= new PVector(0, 0);
 void setup() {
   fullScreen();
   m = new Mover();
-  
 }
 
 void draw() {
   background(255);
 
-
-
   //// Apply the friction force vector to the object.
-  //if (m.velocity.mag() > 0) {
-  //  float c = 0.004; 
-  //  PVector friction = m.velocity.get(); 
-  //  friction.mult(-1); 
-  //  friction.normalize(); 
-  //  friction.mult(c); 
-  //  m.applyForce(friction);
-  //  println(friction.x);
-  //  println(friction.y);
-  //}
-
+  PVector friction = new PVector(0, 0); 
+  if (m.velocity.mag() >= initMag) { //check if car moving in order to have friction
+    float c = 0.0004; 
+    friction = m.velocity.copy(); 
+    friction.mult(-1); 
+    friction.normalize(); 
+    friction.mult(c); 
+    m.applyForce(friction);
+  } else {
+    m.applyForce(friction); //if the car is not moving, don't apply friction
+  }
 
   m.update();
   m.checkEdges();
@@ -50,8 +48,6 @@ class Mover {
   }
   void update() {
     velocity.add(acceleration);
-
-
     acceleration.mult(0); // this makes sure the acceleration is zer0 for the next fram
     location.add(velocity);
   }
@@ -61,13 +57,11 @@ class Mover {
     fill(175);
     //ellipse(location.x, location.y, 16, 16);
 
-
     imageMode(CENTER);
     pushMatrix();
     translate(location.x, location.y);
     rotate(velocity.heading());
     image(carTop, 0, 0);   
-
     popMatrix();
   }
 
@@ -96,13 +90,13 @@ class Mover {
 void keyPressed() {
   if (key == CODED) {
     if (keyCode == UP) {
-      force.set(0, -0.01);
+      force.set(0, -initMag);
     } else if (keyCode == DOWN) {
-      force.set(0, 0.01);
+      force.set(0, initMag);
     } else if (keyCode == LEFT) {
-      force.set(-0.01, 0);
+      force.set(-initMag, 0);
     } else if (keyCode == RIGHT) {
-      force.set(0.01, 0);
+      force.set(initMag, 0);
     }
     m.applyForce(force);
   }
