@@ -117,7 +117,7 @@ I am still working on adding friction to the applied forces. Currently, the only
 ````
 
 Mover m;
-float initMag = 0.01; //value of arrow key
+float initMag = 0.01; //value of force applied by the arrow key
 PVector force= new PVector(0, 0);
 void setup() {
   fullScreen();
@@ -131,7 +131,7 @@ void draw() {
   PVector friction = new PVector(0, 0); 
   if (m.velocity.mag() >= initMag) { //check if car moving in order to have friction
     float c = 0.0004; 
-    friction = m.velocity.get(); 
+    friction = m.velocity.copy(); 
     friction.mult(-1); 
     friction.normalize(); 
     friction.mult(c); 
