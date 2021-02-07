@@ -168,14 +168,10 @@ class Mover {
     acceleration = new PVector(0, 0);
     mass = .1;
 
-
     carTop = loadImage("images/transparent/car_top.png");
   }
   void update() {
     velocity.add(acceleration);
-
-
-
     acceleration.mult(0); // this makes sure the acceleration is zer0 for the next fram
     location.add(velocity);
   }
@@ -191,7 +187,6 @@ class Mover {
     translate(location.x, location.y);
     rotate(velocity.heading());
     image(carTop, 0, 0);   
-
     popMatrix();
   }
 
