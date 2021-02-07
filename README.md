@@ -218,3 +218,7 @@ void keyPressed() {
   }
 }
 ````
+
+##### Demo of my new code:
+
+[![Demo 2](Assignment_1/drivingCar_frictionDemo.gif)](https://www.youtube.com/watch?v=6SW1KWJsN5o)
