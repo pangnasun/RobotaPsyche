@@ -15,8 +15,6 @@ void setup() {
 void draw() {
   background(255);
 
-
-
   //// Apply the friction force vector to the object.
   //if (m.velocity.mag() > 0) {
   //  float c = 0.004; 
@@ -28,7 +26,6 @@ void draw() {
   //  println(friction.x);
   //  println(friction.y);
   //}
-
 
   m.update();
   m.checkEdges();
@@ -49,14 +46,11 @@ class Mover {
     velocity = new PVector(0, 0);
     acceleration = new PVector(0, 0);
     mass = .1;
-
-
+    
     carTop = loadImage("images/transparent/car_top.png");
   }
   void update() {
     velocity.add(acceleration);
-
-
     acceleration.mult(0); // this makes sure the acceleration is zer0 for the next fram
     location.add(velocity);
   }
@@ -66,13 +60,11 @@ class Mover {
     fill(175);
     //ellipse(location.x, location.y, 16, 16);
 
-
     imageMode(CENTER);
     pushMatrix();
     translate(location.x, location.y);
     rotate(velocity.heading());
     image(carTop, 0, 0);   
-
     popMatrix();
   }
 
@@ -180,7 +172,6 @@ class Mover {
     stroke(0);
     fill(175);
     //ellipse(location.x, location.y, 16, 16);
-
 
     imageMode(CENTER);
     pushMatrix();
