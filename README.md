@@ -222,3 +222,8 @@ void keyPressed() {
 ##### Demo of my new code:
 
 [![Demo 2](Assignment_1/drivingCar_frictionDemo.gif)](https://www.youtube.com/watch?v=6SW1KWJsN5o)
+
+### Assignment 2 (February 15): "Playing" with Flow Fields
+
+#### Some Products:
+##### The flow field with the arrows pointing to the center
