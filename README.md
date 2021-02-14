@@ -244,3 +244,6 @@ void keyPressed() {
 ###### Creating vehicles in the flow field where the arrows point to the closest point:
 [![Demo 4](Assignment_2_Feb15/gifs/centeringRandomPoints.gif)](https://youtu.be/dUvdtBE9pd8)
 
+#### Reflections:
+###### Difficulties:
+
