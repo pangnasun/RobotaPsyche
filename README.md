@@ -246,4 +246,11 @@ void keyPressed() {
 
 #### Reflections:
 ###### Difficulties:
+- Thinking in term of angles and radians in order to get the arrows to point in the directions that I want
+- Converting my concepts take a lot of time and headaches 
+- Fall victim to my ambition
+
+###### Interesting/Shocking Discoveriies:
+- 
+###### Difficulties:
 
