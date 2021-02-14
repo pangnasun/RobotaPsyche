@@ -246,11 +246,14 @@ void keyPressed() {
 
 #### Reflections:
 ###### Difficulties:
-- Thinking in term of angles and radians in order to get the arrows to point in the directions that I want
+- Thinking in term of angles in order to get the arrows to point in the directions that I want
 - Converting my concepts take a lot of time and headaches 
 - Fall victim to my ambition
 
 ###### Interesting/Shocking Discoveriies:
-- 
-###### Difficulties:
+- Quite fun playing with flow field although time consuming 
+- I can not resize the canvas according to the size of my input image. In addition, size() does not take in variables as input
+###### Questions:
+- How to make a flow field that center a point gradually. The arrows should arrange in circle or spiral like shapes
+- Still need some clarity on how angles influence the arrows
 
