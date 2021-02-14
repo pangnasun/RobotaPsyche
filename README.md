@@ -255,5 +255,5 @@ void keyPressed() {
 - I can not resize the canvas according to the size of my input image. In addition, size() does not take in variables as input
 ###### Questions:
 - How to make a flow field that center a point gradually. The arrows should arrange in circle or spiral like shapes
-- Still need some clarity on how angles influence the arrows
+- Still need to work on using angles to change directions of arrows 
 
