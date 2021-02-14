@@ -226,4 +226,6 @@ void keyPressed() {
 ### Assignment 2 (February 15): "Playing" with Flow Fields
 
 #### Some Products:
-##### The flow field with the arrows pointing to the center
+###### The flow field with the arrows pointing to the center:
+[![Demo 2](Assignment_2_Feb15/images/centeringBullseye.png)]
+
