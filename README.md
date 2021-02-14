@@ -227,6 +227,5 @@ void keyPressed() {
 
 #### Some Products:
 ###### The flow field with the arrows pointing to the center:
-![Demo 2](Assignment_2_Feb15/images/centeringBullseye.png)
-<img src="Assignment_2_Feb15/images/centeringBullseye.png" width="800" height="800">
+<img src="Assignment_2_Feb15/images/centeringBullseye.png" width="800" height="623">
 
