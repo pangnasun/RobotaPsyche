@@ -232,5 +232,6 @@ void keyPressed() {
 ###### The flow field of a PImage:
 <img src="Assignment_2_Feb15/images/vectoringImage.png" width="800" height="526">
 
-
+###### Creating vehicles in the flow field when mouse is pressed:
+[![Demo 2](Assignment_2_Feb15/gifs/createVehiclesOnClick.gif)](https://youtu.be/gRkRCqM0YEc)
 
