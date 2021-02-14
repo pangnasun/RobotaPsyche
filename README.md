@@ -232,6 +232,15 @@ void keyPressed() {
 ###### The flow field of a PImage:
 <img src="Assignment_2_Feb15/images/vectoringImage.png" width="800" height="526">
 
-###### Creating vehicles in the flow field when mouse is pressed:
+###### Using array lists to create animted flow field:
+[![Demo 1](Assignment_2_Feb15/gifs/animCenteringFlowField.gif)](https://youtu.be/h-oIYOQHUYs)
+
+###### Creating vehicles in the flow field when the mouse is pressed:
 [![Demo 2](Assignment_2_Feb15/gifs/createVehiclesOnClick.gif)](https://youtu.be/gRkRCqM0YEc)
+
+###### Creating vehicles in the flow field that points to the center:
+[![Demo 3](Assignment_2_Feb15/gifs/centeringFlowField.gif)](https://youtu.be/taa6phtvPCU)
+
+###### Creating vehicles in the flow field where the arrows point to the closest point:
+[![Demo 4](Assignment_2_Feb15/gifs/centeringRandomPoints.gif)](https://youtu.be/dUvdtBE9pd8)
 
