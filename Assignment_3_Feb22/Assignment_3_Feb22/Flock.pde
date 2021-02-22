@@ -10,6 +10,8 @@ class Flock {
       // Each Boid object must know about
       // all the other Boids.
       b.applyForce(boids);
+      b.update();
+      b.display();
     }
   }
 

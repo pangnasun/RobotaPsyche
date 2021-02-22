@@ -9,6 +9,19 @@ class Boid {
   float maxforce;
   float maxspeed;
   DNA bDNA;
+  
+  Boid(float x, float y) {
+    acceleration = new PVector(0, 0);
+    velocity = new PVector(0, 0);
+    location = new PVector(x, y);
+    r = 3.0;
+    //Arbitrary values for maxspeed and
+    // force; try varying these!
+    maxspeed = 4;
+    maxforce = 10;
+    
+  }
+  
 
   Boid(float x, float y, DNA _DNA) {
     acceleration = new PVector(0, 0);
@@ -186,16 +199,16 @@ class Boid {
    }
    */
   // Calculate the steering force to follow a flow field
-  void follow(FlowField flow) {
-    // Look up the vector at that spot in the flow field
-    PVector desired = flow.lookup(location);
-    desired.mult(maxspeed);
+  //void follow(FlowField flow) {
+  //  // Look up the vector at that spot in the flow field
+  //  PVector desired = flow.lookup(location);
+  //  desired.mult(maxspeed);
 
-    // Steering is desired minus velocity
-    PVector steer = PVector.sub(desired, velocity);
-    steer.limit(maxforce);
-    applyForce(steer);
-  }
+  //  // Steering is desired minus velocity
+  //  PVector steer = PVector.sub(desired, velocity);
+  //  steer.limit(maxforce);
+  //  applyForce(steer);
+  //}
 
 
 
