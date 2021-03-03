@@ -1,4 +1,4 @@
-Shortcut to [current assignment](#Assignment-3-February-My-Project-Ideas)    
+Shortcut to [current assignment](#Assignment-3-March-1-Bugs-Simulation)    
 # RobotaPsyche
 
 ### Assignment 1: Driving a Car
