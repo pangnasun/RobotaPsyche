@@ -263,3 +263,6 @@ The main and most important variable in my DNA class is the survivablity variabl
 
 There are certain criteria that are put into consideration when determing the survivability of a boid. My DNA has other two vairables: color and size. Thus, depending on these two conditions, a boid's survivabilty may increase or decrease depending on how well its color and size let its adapt to its environment(flow field). For example, if its color matches with the flow field, it will have camaflouge and have a very high chance of surviving. On the other hand, if a boid size is really large but the flow field has narrow path, it won't be able to travel smoothly or keep up with the flock, so its survability will be really low.
 
+### Assignment 3 (March 1): Bugs Simulation
+#### My Final Product:
+[![Demo](March1/Simulation/product/bugsSimulation.gif)](https://www.youtube.com/watch?v=SA2FcCZLtvE)
