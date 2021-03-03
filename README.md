@@ -270,5 +270,5 @@ There are certain criteria that are put into consideration when determing the su
 #### My Process:
 I did not start working on the assignment immediately. Before working on the actual evolution project, I was exploring how different forces affect the behavior of the vehicles. I add and manipulate forces like separation, cohesion, and alignment to make those vehicles behave more like animals. Undertanding these forces actually comes in handy later on in the environment.
 
-I started the assignment by creating a very simple DNA class with three main features: size, color, and survivability index. As mentioned in my previous [post],(Assignment-3-February-22-My-Project-Ideas) the evolution of my bots will hugely depend on how well their sizes and colors adapt to their environment. 
+I started the assignment by creating a very simple DNA class with three main features: size, color, and survivability index. As mentioned in my previous [post](Assignment-3-February-22-My-Project-Ideas), the evolution of my bots will hugely depend on how well their sizes and colors adapt to their environment. 
 
