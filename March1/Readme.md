@@ -1,7 +1,7 @@
 
 ### Assignment 3 (March 1): Bugs Simulation
 #### My Final Product:
-[![Demo](March1/Simulation/product/bugsSimulation.gif)](https://www.youtube.com/watch?v=SA2FcCZLtvE)
+[![Demo](Simulation/product/bugsSimulation.gif)](https://www.youtube.com/watch?v=SA2FcCZLtvE)
 #### My Process:
 ##### Part 1:
 I did not start working on the assignment immediately. Before working on the actual evolution project, I was exploring how different forces affect the behavior of the vehicles. I add and manipulate forces like separation, cohesion, and alignment to make those vehicles behave more like animals. Undertanding these forces actually comes in handy later on in the environment.
