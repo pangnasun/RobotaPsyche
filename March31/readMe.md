@@ -16,10 +16,10 @@ Both authors seem to agree that children perceive robots as capable of receiving
 In addition, Levy compares robots to children several times in his article. For example, argues why robots shoudl not be people's slaves even although people create them just like " we ought not enslave children even though they owe us their very existence and their ability to think" (212). Could we make such comparision? Are children and slaves that alike? Do creators and their robots have the same attachment/relation/connection as parents to their children? 
 
 5. **The Author's Bias:** I couldn't but feel that Levy is biased regarding robots' rights and legal stance; he is strongly favoring robots, and I found some of his evidence not convincing. For example, when trying to proving the validity of the delay test, he uses the follwoing argument: 
-     >While it is simple to create a computer program that passes \[the test], such success does not suggest anything beyond a clever programmer.” \[18]. I beg to                      
-     differ. The fact that a clever programmer is responsible for creating artificial consciousness in a robot is surely no argument for denying that the robot 
+     ></p>While it is simple to create a computer program that passes \[the test], such success does not suggest anything beyond a clever programmer.” \[18]. I beg 
+     to differ. The fact that a clever programmer is responsible for creating artificial consciousness in a robot is surely no argument for denying that the robot 
      exhibits consciousness. Ask any devout Christian the question: “Who programmed us to behave as we do?” and you will quite likely be told that we are pro- 
-     grammed by God. Does that mean that we do not possess consciousness? (211 - 212) 
+     grammed by God. Does that mean that we do not possess consciousness? (211 - 212) </p>
  
  I see his point, but I feel unsettling because are we talking about the same thing when bringing out religion, belief, and, especially, God? I don't see how his  
  argument eliminates the doubt that programmers could program robots to pass any tests. In addition, Levy seems to make an assumption that robots are like human 
