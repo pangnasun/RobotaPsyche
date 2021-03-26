@@ -18,6 +18,7 @@ In addition, Levy compares robots to children several times in his article. For 
      > While it is simple to create a computer program that passes [the test], such success does not suggest anything beyond a clever programmer.” [18]. I beg to                     
      > differ. The fact that a clever programmer is responsible for creating artificial consciousness in a robot is surely no argument for denying that the robot 
      > exhibits consciousness. Ask any devout Christian the question: “Who programmed us to behave as we do?” and you will quite likely be told that we are pro- 
-     > grammed by God. Does that mean that we do not possess consciousness? (211 - 212) <
+     > grammed by God. Does that mean that we do not possess consciousness? (211 - 212) 
+     
 I see his point, but I feel unsettling because are we talking about the same thing when bringing out religion, belief, and, especially, God? I don't see how his argument eliminates the doubt that programmers could program robots to pass any tests. In addition, Levy seems to make an assumption that robots are like human beings in the first place,like when comparing robots to children and robots as having consciousness. And is it alright to skip discussing or defining consciousness completely?
 
