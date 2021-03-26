@@ -8,11 +8,10 @@
 
 - [David Levy's "The Ethical Treatment of Artificially Conscious Robots"](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theEthicalTreatmentOfArtificiallyConsciousRobots.pdf).
 4. **Robots and Children:** Both articles bring up relations between robots and children quite frequently. For instance, Steinert talks about how children "conceiving of and treating AIBO \[dog robot] socially in some ways as if it were a real dog" (252-253). In "The Ethical Treatment of Artificially Conscious Robots," Levy points ouf the following: 
-      > If our children see it as acceptable behaviour from their parents to scream and shout at a robot or to hit it, then, despite the fact that we can program  
-      > robots to feel no such pain or unhappiness, our children might well come to accept that such behaviour is acceptable in the treatment of human beings. By 
-      > virtue of their exhibiting consciousness, robots will come to be perceived by many humans, and especially by children, as being in some sense on the same 
-      > plane as humans. (214)
-      
+      If our children see it as acceptable behaviour from their parents to scream and shout at a robot or to hit it, then, despite the fact that we can program  
+      robots to feel no such pain or unhappiness, our children might well come to accept that such behaviour is acceptable in the treatment of human beings. By 
+      virtue of their exhibiting consciousness, robots will come to be perceived by many humans, and especially by children, as being in some sense on the same 
+      plane as humans. (214)      
 Both authors seem to agree that children perceive robots as capable of receiving social treatments. What makes those children see robots that way? Shouldn't we consider their lack of their experience or is their lack of experience the reason why they are chosen to do the experiment? Why are they focusing so much on children's perception of robots? 
 In addition, Levy compares robots to children several times in his article. For example, argues why robots shoudl not be people's slaves even although people create them just like " we ought not enslave children even though they owe us their very existence and their ability to think" (212). Could we make such comparision? Are children and slaves that alike? Do creators and their robots have the same attachment/relation/connection as parents to their children? 
 5. **The Author's Bias:** I couldn't but feel that Levy is biased regarding robots' rights and legal stance; he is strongly favoring robots, and I found some of his evidence not convincing. For example, when trying to proving the validity of the delay test, he uses the follwoing argument: 
