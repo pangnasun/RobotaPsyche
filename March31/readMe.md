@@ -22,7 +22,7 @@ In addition, Levy compares robots to children several times in his article. For 
      >grammed by God. Does that mean that we do not possess consciousness? (211 - 212) </p>
  
  </p>I see his point, but I feel unsettling because are we talking about the same thing when bringing out religion, belief, and, especially, God? I don't see how 
- his argument eliminates the doubt that programmers could program robots to pass any tests. In addition, Levy seems to make an assumption that robots are like human 
- beings in the first place, like when comparing robots to children and robots as having consciousness. And is it alright to skip discussing, or even defining, 
+ his argument eliminates the doubt that programmers could program robots to pass any tests. In addition, Levy also seems to make an assumption that robots are like 
+ human beings, like when comparing robots to children and robots as having consciousness. And is it alright to skip discussing, or even defining, 
  consciousness completely?</p>
 
