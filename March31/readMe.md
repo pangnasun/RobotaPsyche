@@ -1,7 +1,9 @@
 
 #### March 31st Reaing Assignment
 ##### Links to Readings:
-- [The Five Robots—A Taxonomy for Roboethics](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theFiveRobotsATaxonomyForRoboethics.pdf).
-- [The Ethical Treatment of Artificially Conscious Robots](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theEthicalTreatmentOfArtificiallyConsciousRobots.pdf).
-#### Dicussion Topics 
-1. geg
+- [Steffen Steinert's "The Five Robots—A Taxonomy for Roboethics"](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theFiveRobotsATaxonomyForRoboethics.pdf).
+- [David Levy's "The Ethical Treatment of Artificially Conscious Robots"](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theEthicalTreatmentOfArtificiallyConsciousRobots.pdf).
+#### Discussion Topics 
+1. **Status as a person:** "In the past, blacks, gypsies, children, women, foreigners, corporations, prisoners, and Jews have been regarded at some points in history as being legal non-persons" (Steiner 252). Are we repeating the "past" by considering/labeling/defining robots as non-persons or robots are a completely different case? Steinert mentions how "societies 'make' persons, because persons are 'produced' by a process of personification, which is conferring the status of a person to something" (252). Since "being a person" is defined as a status made by the society to bestow on a person, couldn't we do the same thing to robots? Of course, the following-up question would be: is a certain robot deemed worthy enough to receive that honor and how do we determine a robot's worthiness?
+2. **Robots' Roles and Responsiblities/Accountabilities:** Steinert mentions a variety of robots, ranging from vacuum bots and combat robots (254) to babysitting and eldercaring robots (255), and points out how their levels of autonomy and roles are different from each other. Could we use robots' roles and levels of autonomy as the basis to evaluate how responsible are they for their actions? A robot with more freedom to create its own decisions should be held accountable or more accountable than a robot with semi-autonomy. Still, engineers and programmers are the one who implements robots' roles and "ethical standards and routines" (254) that govern their autonomy. So, should we take this into consideration as well?
+3. 
