@@ -1,5 +1,5 @@
 
-#### March 29th Reaing Assignment
+#### March 29th Reading Assignment
 #### Discussion Topics 
 - [Steffen Steinert's "The Five Robots—A Taxonomy for Roboethics"](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theFiveRobotsATaxonomyForRoboethics.pdf).
 1. **Status as a person:** "In the past, blacks, gypsies, children, women, foreigners, corporations, prisoners, and Jews have been regarded at some points in history as being legal non-persons" (Steiner 252). Are we repeating the "past" by considering/labeling/defining robots as non-persons or robots are a completely different case? Steinert mentions how "societies 'make' persons, because persons are 'produced' by a process of personification, which is conferring the status of a person to something" (252). Since "being a person" is defined as a status made by the society to bestow on a person, couldn't we do the same thing to robots? Of course, the following-up question would be: is a certain robot deemed worthy enough to receive that honor and how do we determine a robot's worthiness? Should robots undergo tests to be certified as "persons"?
