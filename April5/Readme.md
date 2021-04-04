@@ -9,6 +9,7 @@ by Isaac Asimov
 2. **Robots and children:** Similar to our [previous readings,](https://github.com/pangnasun/RobotaPsyche/edit/main/March29) the first short story is about the relationship between a little girl named Gloria and her robot Robbie. She does not see Robbie as a machine but as a person. On the the other hand, her mom sees Robbie as nothing more than a machine. Whose judgement should we take, children's or adults'? Are adults clouded by their own believes to judge robots unbiasedly? Imagine children having robots as their childhood friends. Would this make their generation more likely to accept robots as a part of their lives?
 3. **Robots Creating Robots(20)):** If robots are created by others robots, do they have to be under the "ownership" of human beings? Robots might be able to create robots that are much more advance than people could. Thus, how could we regulate them? How do they keep them in check?
 4. **The Three Fundamental Rules of Robots:**
+    5. 
     a. A robot may not injure a human being, or through inaction, allow a human being to come to harm.
     b. A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.
     c. A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws. 
