@@ -15,6 +15,6 @@ by Isaac Asimov
         
    Are these all the laws we need to keep robots in check?
 
-5. **Human as "Masters":** In the short story "Runaround," robots address people as "master". Should robots be created with the sole purpose to serve us? If so, doesn't this mean that we creating slaves? 
+5. **Human as "Masters":** In the short story "Runaround," robots address people as "master". Should robots be created with the sole purpose to serve us? If so, doesn't this mean that we are creating slaves? 
  
 
