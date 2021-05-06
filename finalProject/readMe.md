@@ -136,6 +136,8 @@ I added some practical features to inform the viewers whether the association ha
 <img src="images/feature.png" width="800" height="434">
 
 
+### Project Product
+It turns out my project simulation is far simpler than what I planned. The final product is a simulation of two animals with two sizes. The ones with the larger size have higher chance to a predator while the smaller ones have higher chance to be a prey. Preys are coded to avoid predators. As the simulation is running, if the number of larger animals who are also predators surpasses the threshold, preys with associate larger animals as predators. At the end of the simulation, we will see that preys move with preys while predators move with predators. 
 
 ### Demo Videos
 
