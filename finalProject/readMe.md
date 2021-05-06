@@ -48,10 +48,83 @@ Thus, their relations would mainly depend on their size: when two animals encoun
     return 2;  // netural relation ship
   }
 ````
+The function relation returns either 1 or 2: 1 means another animal is a predator, while two means ally.
+
+#### Log 4: 
+I worked on when to give these animals relations. Like Michael, I only gave them relations when they are within certain distance from each other and not themselves. 
+
+````
+//function to define the relationship between various animals randomly depending on their sizes
+  int defineRelations(ArrayList<Animal> animals) {
+    //println("Me: " + serialNumber);
+    int count = 0;
+    for (Animal animal : animals) {
+      // What is the distance between me and another Vehicle?
+      float d = PVector.dist(location, animal.location);
+
+      // If the distance is zero we are looking at ourselves so skip over ourselves
+      if (d == 0) {
+        continue;
+      }
+
+      // If the distance is greater than tooClose skip this vehicle
+      if (d > tooClose) {
+        continue;
+      }
+
+      //calls functiont that randomly defines the relationships
+      if ( animal.serialNumber != this.serialNumber) {
+        int[] codes = new int[3];
+        int num= relation(animal);
+        codes[0] = num;
+
+        //println("code:" + num);
+        //println("num" + num);
+        int[] nCodes = new int[3];
+        if (num == 1) {
+          nCodes[0] =0;
+          count++;
 
 
+          //println("here");
+        } else if (num == 0) {
+          nCodes[0] =1;
+        } else {
+          nCodes[0] =2;
+          nCodes[1] =40;
+          codes[1] = 40;
+        }
+        this.dict.put(animal.serialNumber, codes);
+        animal.dict.put(this.serialNumber, nCodes);
+      }
+    }
+    //println("c " + count);
+    return count;
+  }
 
+````
+Down the line, I decided to use a dictionary to store information about their relations because I noticed that each animal has a unique serial number. Thus, each animal has a dictionary with other animals' serial numbers as the key value. For each animal, I can use other animals' serial numbers to look up the relations easier. 
 
+Notice that the dictionary stores an integer array of 3 values. The first value of the array defines the relations between animals. The second value of the array defines the distance they should stay between each other. The third value I had not thought of yet. 
+
+#### Log 5:
+I used the values from the dictionary to code the behaviors between the animals. I ran through the loop of animals, check their relations, and use the distance value to implement how far they should stay from each other, whether they should align, codhere, or separate. It took some time to test for the values I should use for their distance. 
+````
+if (dict.get(other.serialNumber) != null &&  dict.get(other.serialNumber)[0] == other.dict.get(serialNumber)[0] && (d > 10) && (d < neighbordist)) {
+
+        //println(serialNumber + " : " + dict.get(other.serialNumber)[0]);
+        desiredseparation = dict.get(other.serialNumber)[1];        
+        sum.add(other.velocity);        
+        count++;
+      }
+````
+The code above shows how I checked their relationship. I made sure that dictionary stores some information regarding that key first. Second, I decided if the values of their relation are the same, meaning they are friends. If true, I retrieved the distance value from the array, so I can set their distance closer together. On the other hand, if they are not friends, the distance between will remain far part, representing the preys' desire to stay away. 
+
+#### Log 6:
+Now I started thinking about how to implement the association feature. I came up with a simpler version in which the assocation has to do with large animals. I created a threshold to set how many larger animals can be predators. If the number of larger animals who are preadtors surpass this threshold, than smaller animals will consider them as predators.
+
+#### Log 7:
+I added some practical features to inform the viewers whether the association happened yet. It also showed the total number of animals in the simulation and the run time. 
 
 
 
