@@ -2,5 +2,5 @@
 # Final Project: Simulating a Simple Ecosystem
 
 ### Project Concept
-#### * Initial Concept
+#### 1. Initial Concept
 - 
