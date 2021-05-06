@@ -177,3 +177,14 @@ Simulation # 3 with 200 animals:
 
 [![Demo](gifs/EcoSim3.gif)](https://www.youtube.com/watch?v=OK1kmvzanII)
 
+#### About the Simulation
+Notice that it took different time for the association to happen in each of the demo above. The first demo with 100 animals took the longest time (6 minutes) to reach association stage while the one with 200 animals took only 18 seconds. The rationale is with more animals, more interactions happened because the space of the environment remained constant through out the three simulations. As the result of more interactions, more relations were formed and it became more likely to have higher number of predators who are large. 
+
+I ran so many simulation with different thresholds and sizes of animals. Some thresholds did not work and needed adjustment. Sometimes, the association did not happen until 10 mintues or never happened at all. Everything is so random and anything could happen. 
+
+You will see that I commented out many parts of my code because those parts were my tests and they did not work out. For example, I created a function to randomly intiate animals without having them overlap each other's location. However, it took such a long time to run time because the program needed to do so many loops to make sure that no overlaps occured. 
+
+### Reflections
+
+
+
