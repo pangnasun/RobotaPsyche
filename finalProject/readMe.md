@@ -135,6 +135,30 @@ I decided the threshold to be 80% of the total number of animals after many test
 I added some practical features to inform the viewers whether the association happened yet. It also showed the total number of animals in the simulation and the run time. 
 <img src="images/feature.png" width="800" height="434">
 
+It took me quite some time to get the displays of the boxes and the texts right because I made their sizes dynamic, meaning that their sizes are the ratios of the window size. Changing the sizes of the processing window will not cause the problem of the texts become bigger than the text boxes or put the boxes and the texts in awkward position or sizes. 
+
+````
+ //size of the box is the percentage of width and height
+  boxWidth = width * 0.26;
+  boxHeight = boxWidth * 0.15;
+
+  //initiate the start location of box where state of association is shown
+  asBoxStartX = width * 0.025;
+  asBoxStartY = height * 0.01;
+
+  //initiate the start location of box where number of bots is shown
+  botBoxStartX = width * 0.373;
+  botBoxStartY = height * 0.01;
+
+  //initiate the start location of box where state of runtime is shown
+  countBoxStartX = width * 0.718;
+  countBoxStartY = height * 0.01;
+
+  //offset is percentage of height and width of box
+  textOffSetX = boxWidth * 0.05;
+  textOffSetY = boxHeight * 0.7;
+````
+
 
 ### Project Product
 It turns out my project simulation is far simpler than what I planned. The final product is a simulation of two animals with two sizes. The ones with the larger size have higher chance to a predator while the smaller ones have higher chance to be a prey. Preys are coded to avoid predators. As the simulation is running, if the number of larger animals who are also predators surpasses the threshold, preys with associate larger animals as predators. At the end of the simulation, we will see that preys move with preys while predators move with predators. 
