@@ -125,7 +125,7 @@ Now I started thinking about how to implement the association feature. I came up
 
 #### Log 7:
 I added some practical features to inform the viewers whether the association happened yet. It also showed the total number of animals in the simulation and the run time. 
-
+<img src="images/feature.png" width="800" height="434">
 
 
 
