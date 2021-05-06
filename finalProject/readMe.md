@@ -8,13 +8,15 @@ As the simulation continues, animals will learn to associate which animals are p
 
 
 ### Progress Journal
-#### Log O: 
+#### Log 0: 
 I was looking for image sprites to put in my project. I saw some image sprites of spiders, squirrels, tigers, and other bugs. I downloaded them all. 
 #### Log 1: 
 I started thinking about how to code the "learning" process of each animal. I was playing around with Michael's Association program. I added a variable relation to the class Vehicle as a mean of keeping track of its relation to other animals. However, I soon realized that it was not right to define a relation to yourself; it should be relations to other animals. Thus, one variable will not be enough. I needed to create an arraylist the stores its relations to other animals. The array list will store all the animals that will be created in the main program. 
 
 #### Log 2: 
-I started coding random relations between 
+I came across a problem as I started coding random relations for these animals. When one animal ate another animal, the eaten animal would be deleted, so it wouldn't be able to pass information to other animals. I needed to store this information somewhere outisde the animal class in order for animals to acess this information. I took a step to consider what I meant in my Project Concept when I said "animal A notices."
+
+#### Log 3: 
 
 
 
@@ -33,7 +35,7 @@ Simulation # 2 with 150 animals:
 
 [![Demo](gifs/EcoSim2.gif)](https://www.youtube.com/watch?v=uDsjksdJaDU)
 
-Simulation # 1 with 200 animals:
+Simulation # 3 with 200 animals:
 
 [![Demo](gifs/EcoSim3.gif)](https://www.youtube.com/watch?v=OK1kmvzanII)
 
