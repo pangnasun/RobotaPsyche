@@ -28,11 +28,14 @@ The next step is how to define the relations. I needed these animals to randomly
 ### Demo Videos
 
 Simulation # 1 with 100 animals:
+
 [![Demo](gifs/EcoSim1.gif)](https://www.youtube.com/watch?v=NswwYQcuVkE&t)
 
 Simulation # 2 with 150 animals:
+
 [![Demo](gifs/EcoSim2.gif)](https://www.youtube.com/watch?v=uDsjksdJaDU)
 
 Simulation # 1 with 200 animals:
+
 [![Demo](gifs/EcoSim3.gif)](https://www.youtube.com/watch?v=OK1kmvzanII)
 
