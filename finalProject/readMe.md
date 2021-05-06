@@ -13,10 +13,8 @@ I was looking for image sprites to put in my project. I saw some image sprites o
 #### Log 1: 
 I started thinking about how to code the "learning" process of each animal. I was playing around with Michael's Association program. I added a variable relation to the class Vehicle as a mean of keeping track of its relation to other animals. However, I soon realized that it was not right to define a relation to yourself; it should be relations to other animals. Thus, one variable will not be enough. I needed to create an arraylist the stores its relations to other animals. The array list will store all the animals that will be created in the main program. 
 
-The next step is how to define the relations. I needed these animals to randomly eat one another
-
-
 #### Log 2: 
+I started coding random relations between 
 
 
 
