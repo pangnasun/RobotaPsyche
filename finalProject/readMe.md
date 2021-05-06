@@ -123,6 +123,14 @@ The code above shows how I checked their relationship. I made sure that dictiona
 #### Log 6:
 Now I started thinking about how to implement the association feature. I came up with a simpler version in which the assocation has to do with large animals. I created a threshold to set how many larger animals can be predators. If the number of larger animals who are preadtors surpass this threshold, than smaller animals will consider them as predators.
 
+````
+int numberOfAnimals = 200;  //number of bots/animals in the environemnt
+int average = 0;           //keep track of the average number of predators who are large
+boolean associate = false;  //associate is false at first
+final float THRESHOLD =  numberOfAnimals * 0.8;  //threshold is 72% of total animals; 
+````
+I decided the threshold to be 80% of the total number of animals after many testing. Noticed that I have the variable average to keep track of the average number of larger animals who are predators from all the rounds during the simulation. When the threshold is passed, the boolean association becomes true and the association happens. 
+
 #### Log 7:
 I added some practical features to inform the viewers whether the association happened yet. It also showed the total number of animals in the simulation and the run time. 
 <img src="images/feature.png" width="800" height="434">
