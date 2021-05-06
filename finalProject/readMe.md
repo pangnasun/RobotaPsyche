@@ -14,9 +14,40 @@ I was looking for image sprites to put in my project. I saw some image sprites o
 I started thinking about how to code the "learning" process of each animal. I was playing around with Michael's Association program. I added a variable relation to the class Vehicle as a mean of keeping track of its relation to other animals. However, I soon realized that it was not right to define a relation to yourself; it should be relations to other animals. Thus, one variable will not be enough. I needed to create an arraylist the stores its relations to other animals. The array list will store all the animals that will be created in the main program. 
 
 #### Log 2: 
-I came across a problem as I started coding random relations for these animals. When one animal ate another animal, the eaten animal would be deleted, so it wouldn't be able to pass information to other animals. I needed to store this information somewhere outisde the animal class in order for animals to acess this information. I took a step to consider what I meant in my Project Concept when I said "animal A notices."
+I came across a problem as I started coding random relations for these animals. When one animal ate another animal, the eaten animal would be deleted, so it wouldn't be able to pass information to other animals. I needed to store this information somewhere outisde the animal class in order for animals to acess this information. I took a step to consider what I meant in my Project Concept when I said "animal A notices." So far, when I was running through the array list of animals, information only passed between two animals at a time during the loop. I needed to find a way to allow the information to pass out to other animlas, so they could "notice" what was going on between the two interacting animals. 
+
+I tried to create loops within loops to allow other animals to be involved in the other animals' interactions. I felt like this is too complicated. I may need to simplify how I create their relationships. 
 
 #### Log 3: 
+I simplified their relations by creating a function that gave them relations based on their size. I created Animal class (similar to Michael's Vehicle class), where in the constructor I randomly two sizes to the animal. 
+````
+  if (round(random(1))== 1) {
+      r = 3;
+    } else {
+      r = 6;
+    }
+````
+Thus, their relations would mainly depend on their size: when two animals encounter each other, the one with larger size have a higher chance to be a predator. 
+````
+//randomly defines relations between animals
+  int relation(Animal other) {
+    float chance = random(100);
+
+    if (other.r > r) {
+      // if size is bigger, high chance of being a predator
+      if (chance > 20) {
+        return 1;     //relation is a predator
+      }
+    } else {
+      // chance is lower to be a predator
+      if (chance > 80) {
+        return 1;
+      }
+    }
+
+    return 2;  // netural relation ship
+  }
+````
 
 
 
