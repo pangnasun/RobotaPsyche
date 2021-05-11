@@ -5,14 +5,14 @@ It turns out my project simulation is far simpler than what I planned. The final
 
 ### Demo Videos
 
-Simulation # 1 with 100 animals:
+Simulation # 1 with 175 animals:
 
 [![Demo](https://media.giphy.com/media/94MYSYockJIy5tjL9M/giphy.gif)](https://www.youtube.com/watch?v=NswwYQcuVkE&t)
 
-Simulation # 2 with 150 animals:
+Simulation # 2 with 250 animals:
 
 [![Demo](https://media.giphy.com/media/WS9k9saCavwhIF9soF/giphy.gif)](https://www.youtube.com/watch?v=aVVszhxr18M)
 
-Simulation # 3 with 200 animals:
+Simulation # 3 with 300 animals:
 
 [![Demo](https://media.giphy.com/media/94MYSYockJIy5tjL9M/giphy.gif)](https://youtu.be/8aFjDbX24C0)
