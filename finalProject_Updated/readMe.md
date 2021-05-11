@@ -11,7 +11,7 @@ Simulation # 1 with 100 animals:
 
 Simulation # 2 with 150 animals:
 
-[![Demo](gifs/EcoSim2.gif)](https://www.youtube.com/watch?v=aVVszhxr18M)
+[![Demo](https://media.giphy.com/media/WS9k9saCavwhIF9soF/giphy.gif](https://www.youtube.com/watch?v=aVVszhxr18M)
 
 Simulation # 3 with 200 animals:
 
