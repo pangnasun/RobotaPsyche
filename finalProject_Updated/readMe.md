@@ -13,7 +13,7 @@ It turns out my project simulation is far simpler than what I planned. The final
 
 Simulation # 1 with 175 animals:
 
-[![Demo](https://media.giphy.com/media/94MYSYockJIy5tjL9M/giphy.gif)](https://www.youtube.com/watch?v=NswwYQcuVkE&t)
+[![Demo](https://media.giphy.com/media/kCWqkcbwqIWnmiTf3c/giphy.gif)](https://youtu.be/r_oAsYo8_qc)
 
 Simulation # 2 with 250 animals:
 
