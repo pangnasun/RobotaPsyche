@@ -8,7 +8,7 @@ It turns out my project simulation is far simpler than what I planned. The final
 #### About the info displayed in the simulation
 - "Association: False" means the association has not happened yet. It switches to "Association: True" when association happens.
 - "Threshold/Bots" shows the set threshold vs the total number of bots (animals). The threshold is set by multiplying the total number of animals by a certain percent. 
-- "Current Status" shows the average number of large animals who are predators from all the rounds during the simulation. If the number is greater than the threshold, "Current Status" changes to "Associated at" to show that association has happened. 
+- "Current Status" shows the average number of large animals who are predators from all the rounds during the simulation. If the number is greater than the threshold. "Current Status" changes to "Associated at" to show that association has happened. 
 - "Runtime" shows the time the simulation has been running. 
 
 Simulation # 1 with 175 animals:
