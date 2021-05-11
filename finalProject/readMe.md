@@ -165,6 +165,8 @@ It turns out my project simulation is far simpler than what I planned. The final
 
 ### Demo Videos
 
+Please refer to this [link](https://github.com/pangnasun/RobotaPsyche/tree/main/finalProject_Updated) for higher-quality videoes.
+
 Simulation # 1 with 100 animals:
 
 [![Demo](gifs/EcoSim1.gif)](https://www.youtube.com/watch?v=NswwYQcuVkE&t)
